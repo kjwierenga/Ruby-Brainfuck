@@ -1,4 +1,3 @@
-#!/usr/bin/ruby1.9.1
 # Brainfuck Interpreter
 # (C) Sebastian Kaspari 2010
 
@@ -56,5 +55,7 @@ class Brainfuck
         when ?, then c[p] = get_character.to_i
       end
     end
+
+    c.length # return number of used cells (cell count)
   end
 end
