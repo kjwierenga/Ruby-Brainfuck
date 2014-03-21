@@ -1,4 +1,4 @@
-#!/usr/bin/ruby1.9.1
+#!/usr/bin/env ruby
 # Brainfuck Interpreter
 # (C) Sebastian Kaspari 2009
 # Usage: bf.rb [FILE]
